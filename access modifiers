@@ -7,3 +7,23 @@ class python():
 obj = python()
 print(obj.var)
 obj.method()
+
+#protected access modifier
+class python():
+    def __init__(self):
+        self._var = 40
+    def method(self):
+        print(self._var)
+obj = python()
+print(obj._var)
+obj.method()
+
+#private access modifier
+class python():
+    def __init__(self):
+        self.__var = 40
+    def method(self):
+        print(self.__var)
+obj = python()
+obj.method()
+print(obj.__var)
