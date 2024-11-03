@@ -1,0 +1,9 @@
+#public access modifier
+class python():
+    def __init__(self):
+        self.var = 40
+    def method(self):
+        print(self.var)
+obj = python()
+print(obj.var)
+obj.method()
