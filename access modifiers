@@ -27,3 +27,4 @@ class python():
 obj = python()
 obj.method()
 print(obj.__var)
+ 
